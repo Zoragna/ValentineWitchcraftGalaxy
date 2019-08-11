@@ -1,0 +1,75 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://blender_assets/skirt.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://blender_assets/fox_face.obj" type="ArrayMesh" id=2]
+[ext_resource path="res://blender_assets/paw.obj" type="ArrayMesh" id=3]
+[ext_resource path="res://blender_assets/boots.obj" type="ArrayMesh" id=4]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_color = Color( 0.113725, 0.294118, 0.133333, 1 )
+
+[sub_resource type="SpatialMaterial" id=2]
+albedo_color = Color( 0.211765, 0.12549, 0.0156863, 1 )
+
+[sub_resource type="SpatialMaterial" id=3]
+albedo_color = Color( 0.866667, 0.811765, 0, 1 )
+
+[sub_resource type="SpatialMaterial" id=4]
+albedo_color = Color( 0.431373, 0.431373, 0.431373, 1 )
+
+[sub_resource type="SpatialMaterial" id=5]
+albedo_color = Color( 0.658824, 0.658824, 0.658824, 1 )
+metallic = 1.0
+
+[sub_resource type="SpatialMaterial" id=6]
+albedo_color = Color( 0.482353, 0.329412, 0.137255, 1 )
+
+[sub_resource type="CapsuleShape" id=7]
+height = 3.79741
+
+[node name="Spatial" type="Spatial"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.72231, 0 )
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.16099, 0 )
+mesh = ExtResource( 1 )
+material/0 = SubResource( 1 )
+material/1 = SubResource( 2 )
+material/2 = SubResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="MeshInstance"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.260812, 2.20872, 0.895788 )
+mesh = ExtResource( 2 )
+material/0 = SubResource( 4 )
+material/1 = null
+material/2 = null
+
+[node name="MeshInstance2" type="MeshInstance" parent="MeshInstance"]
+transform = Transform( -0.0512686, -0.292965, 0.0392802, 0.2955, -0.0517676, -0.000413735, -0.00718217, -0.0386202, -0.297417, -1.44617, 0.154731, 0.047609 )
+mesh = ExtResource( 3 )
+material/0 = null
+material/1 = SubResource( 4 )
+
+[node name="MeshInstance4" type="MeshInstance" parent="MeshInstance"]
+transform = Transform( -0.00672834, 0.297408, -0.0387737, 0.299923, 0.00678525, 0, 0.000876964, -0.0387637, -0.297484, 1.36764, 0.154731, 0.047609 )
+mesh = ExtResource( 3 )
+material/0 = null
+material/1 = SubResource( 4 )
+
+[node name="MeshInstance3" type="MeshInstance" parent="MeshInstance"]
+transform = Transform( 0.6, 0, 0, 0, 0.6, 0, 0, 0, 0.6, -0.0765204, -1.94481, 0.388345 )
+mesh = ExtResource( 4 )
+material/0 = SubResource( 5 )
+material/1 = SubResource( 6 )
+
+[node name="MeshInstance5" type="MeshInstance" parent="MeshInstance"]
+transform = Transform( 0.6, 0, 0, 0, 0.6, 0, 0, 0, 0.6, 0.868188, -1.94481, 0.424816 )
+mesh = ExtResource( 4 )
+material/0 = SubResource( 5 )
+material/1 = SubResource( 6 )
+
+[node name="RigidBody" type="RigidBody" parent="."]
+
+[node name="CollisionShape" type="CollisionShape" parent="RigidBody"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-008, -1, 0, 1, -4.37114e-008, 0, 1.60307, 0 )
+shape = SubResource( 7 )

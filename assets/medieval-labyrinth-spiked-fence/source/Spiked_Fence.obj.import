@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Spiked_Fence.obj-89a83793366a3e89e53947b2f3cea9e7.mesh"
+
+[deps]
+
+files=[ "res://.import/Spiked_Fence.obj-89a83793366a3e89e53947b2f3cea9e7.mesh" ]
+
+source_file="res://assets/medieval-labyrinth-spiked-fence/source/Spiked_Fence.obj"
+dest_files=[ "res://.import/Spiked_Fence.obj-89a83793366a3e89e53947b2f3cea9e7.mesh", "res://.import/Spiked_Fence.obj-89a83793366a3e89e53947b2f3cea9e7.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

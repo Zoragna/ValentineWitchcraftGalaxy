@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/boots.obj-1ca4617bcbdfff97f14187a90f0359f4.mesh"
+
+[deps]
+
+files=[ "res://.import/boots.obj-1ca4617bcbdfff97f14187a90f0359f4.mesh" ]
+
+source_file="res://blender_assets/boots.obj"
+dest_files=[ "res://.import/boots.obj-1ca4617bcbdfff97f14187a90f0359f4.mesh", "res://.import/boots.obj-1ca4617bcbdfff97f14187a90f0359f4.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

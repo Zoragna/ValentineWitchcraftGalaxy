@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/paw.obj-5d908117ca2c6252b1e4bf36331a3e11.mesh"
+
+[deps]
+
+files=[ "res://.import/paw.obj-5d908117ca2c6252b1e4bf36331a3e11.mesh" ]
+
+source_file="res://blender_assets/paw.obj"
+dest_files=[ "res://.import/paw.obj-5d908117ca2c6252b1e4bf36331a3e11.mesh", "res://.import/paw.obj-5d908117ca2c6252b1e4bf36331a3e11.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

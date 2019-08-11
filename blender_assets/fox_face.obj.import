@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/fox_face.obj-fbeb001a9e145b68b400b59e22f4ce7f.mesh"
+
+[deps]
+
+files=[ "res://.import/fox_face.obj-fbeb001a9e145b68b400b59e22f4ce7f.mesh" ]
+
+source_file="res://blender_assets/fox_face.obj"
+dest_files=[ "res://.import/fox_face.obj-fbeb001a9e145b68b400b59e22f4ce7f.mesh", "res://.import/fox_face.obj-fbeb001a9e145b68b400b59e22f4ce7f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

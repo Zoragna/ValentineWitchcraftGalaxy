@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pillar.obj-f2239bda033cc686cb71f1f63dc39b8e.mesh"
+
+[deps]
+
+files=[ "res://.import/pillar.obj-f2239bda033cc686cb71f1f63dc39b8e.mesh" ]
+
+source_file="res://blender_assets/pillar.obj"
+dest_files=[ "res://.import/pillar.obj-f2239bda033cc686cb71f1f63dc39b8e.mesh", "res://.import/pillar.obj-f2239bda033cc686cb71f1f63dc39b8e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

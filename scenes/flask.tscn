@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://scripts/flask.gd" type="Script" id=1]
+[ext_resource path="res://blender_assets/flash.obj" type="ArrayMesh" id=2]
+
+
+[sub_resource type="SpatialMaterial" id=1]
+
+[node name="Spatial" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+mesh = ExtResource( 2 )
+material/0 = SubResource( 1 )
+material/1 = null

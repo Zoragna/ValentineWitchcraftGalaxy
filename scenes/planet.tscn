@@ -1,0 +1,48 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://scripts/planet.gd" type="Script" id=1]
+[ext_resource path="res://mesh_library.meshlib" type="MeshLibrary" id=2]
+[ext_resource path="res://mesh_library2.meshlib" type="MeshLibrary" id=3]
+[ext_resource path="res://scenes/light_mushroom.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scenes/book.tscn" type="PackedScene" id=5]
+[ext_resource path="res://scenes/picture.tscn" type="PackedScene" id=6]
+[ext_resource path="res://scenes/pillar.tscn" type="PackedScene" id=7]
+
+[node name="Spatial" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="GridMap" type="GridMap" parent="."]
+mesh_library = ExtResource( 2 )
+data = {
+"cells": PoolIntArray( 0, 0, 0, 1, 0, 1073741824, 65533, 0, 536870912, 65534, 0, -1610612736, 65535, 0, 0, 65537, 0, 1073741824, 0, 1, 1, 1, 1, 0, 65532, 1, 1, 65533, 1, 0, 65534, 1, 536870913, 65535, 1, 1, 65537, 1, 0, 0, 2, 536870913, 1, 2, 0, 65532, 2, 536870913, 65533, 2, 536870912, 65534, 2, 1, 65535, 2, 1073741825, 65537, 2, -1610612736, 0, 3, 1, 1, 3, 0, 65532, 3, 1073741825, 65533, 3, 0, 65534, 3, -1610612736, 65535, 3, 1073741824, 131069, 3, 7, 196605, 3, 7, 262141, 3, 1073741831, -4, 3, 0, 0, 4, 1, 65533, 4, 1, 65534, 4, 1, 65535, 4, 536870913, 65536, 4, 1073741826, 65537, 4, 5, 131071, 4, 2, -7, 4, 536870920, -6, 4, 8, -4, 4, 536870912, -65536, 5, 0, -65535, 5, 1073741824, -7, 5, 8, -6, 5, 8, -4, 5, -1610612736, -3, 5, 536870912, -2, 5, -1610612736, -1, 5, 0, -7, 6, 8, -6, 6, 8, -5, 6, 8, -7, 7, -1610612728, -6, 7, 8, -5, 7, 8, -2, 7, 6, -1, 7, 6, -8, 8, 6, -7, 8, 6, -6, 8, 6, -5, 8, 6, -4, 8, 6, -3, 8, 6, -8, 9, 6, -7, 9, 6, -6, 9, 6, -5, 9, 6, -4, 9, 6, -65536, 10, 8, -8, 10, 9, -7, 10, 9, -6, 10, 9, -5, 10, 9, -4, 10, 8, -3, 10, 8, -2, 10, 8, -1, 10, 8, -65536, 11, 8, -8, 11, 9, -7, 11, 9, -6, 11, 9, -5, 11, 9, -4, 11, 8, -3, 11, 8, -2, 11, 8, -1, 11, 8, -65536, 12, 8, -8, 12, 9, -7, 12, 9, -6, 12, 9, -5, 12, 9, -4, 12, 8, -3, 12, 8, -2, 12, 8, -1, 12, 8, -65536, 13, 8, -8, 13, 9, -7, 13, 9, -6, 13, 9, -5, 13, 9, -4, 13, 8, -3, 13, 8, -2, 13, 8, -1, 13, 8, -7, 14, 9, -6, 14, 9, -5, 14, 536870921, -4, 14, 8, -3, 14, 8, -2, 14, 8, -1, 14, 8 )
+}
+__meta__ = {
+"_editor_clip_": 0,
+"_editor_floor_": Vector3( 0, -1, 0 )
+}
+
+[node name="GridMap2" type="GridMap" parent="."]
+mesh_library = ExtResource( 3 )
+cell_size = Vector3( 2, 1, 2 )
+data = {
+"cells": PoolIntArray( 65531, 4, -1610612736, 65532, 4, 1610612737, -65536, 4, 0, -5, 4, 0, 0, 5, 0, 65531, 5, -536870912, 65532, 5, 536870913, 65533, 5, 1, 65534, 5, 1, 65535, 5, 1, -65536, 5, 0, -5, 5, 0, 0, 6, 0, 65532, 6, 0, 65533, 6, 0, 65534, 6, 0, 65535, 6, 0, -65536, 6, 0, -4, 6, 0, -3, 6, 0, -2, 6, 1073741824, -1, 6, 0 )
+}
+__meta__ = {
+"_editor_clip_": 0,
+"_editor_floor_": Vector3( 0, 0, 0 )
+}
+
+[node name="light_mushroom" parent="." instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.22851, 3.80732, 9.26575 )
+
+[node name="book" parent="." instance=ExtResource( 5 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.98143, 2.32958, 24.9847 )
+
+[node name="Spatial" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.99597, 8.6605, 4.3279 )
+
+[node name="Spatial2" parent="." instance=ExtResource( 6 )]
+transform = Transform( 0.999357, 0, -0.0358606, 0, 1, 0, 0.0358606, 0, 0.999357, -0.844552, 2.17315, 23.5358 )
+
+[node name="Spatial3" parent="." instance=ExtResource( 7 )]
+transform = Transform( -0.722555, 0, 0.691314, 0, 1, 0, -0.691314, 0, -0.722555, -12.1542, 1.42931, 16.5328 )

@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/jaw.obj-8e2f69b1fbd8eff0d71d312ce4e2b25b.mesh"
+
+[deps]
+
+files=[ "res://.import/jaw.obj-8e2f69b1fbd8eff0d71d312ce4e2b25b.mesh" ]
+
+source_file="res://blender_assets/jaw.obj"
+dest_files=[ "res://.import/jaw.obj-8e2f69b1fbd8eff0d71d312ce4e2b25b.mesh", "res://.import/jaw.obj-8e2f69b1fbd8eff0d71d312ce4e2b25b.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

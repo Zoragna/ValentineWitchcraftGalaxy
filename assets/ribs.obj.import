@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ribs.obj-df98e27a73a684a0770ad040307449b6.mesh"
+
+[deps]
+
+files=[ "res://.import/ribs.obj-df98e27a73a684a0770ad040307449b6.mesh" ]
+
+source_file="res://assets/ribs.obj"
+dest_files=[ "res://.import/ribs.obj-df98e27a73a684a0770ad040307449b6.mesh", "res://.import/ribs.obj-df98e27a73a684a0770ad040307449b6.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

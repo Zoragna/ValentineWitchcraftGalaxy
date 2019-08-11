@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/bone.obj-44752055e7c67b68bddafa34a33bcac8.mesh"
+
+[deps]
+
+files=[ "res://.import/bone.obj-44752055e7c67b68bddafa34a33bcac8.mesh" ]
+
+source_file="res://assets/bone.obj"
+dest_files=[ "res://.import/bone.obj-44752055e7c67b68bddafa34a33bcac8.mesh", "res://.import/bone.obj-44752055e7c67b68bddafa34a33bcac8.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

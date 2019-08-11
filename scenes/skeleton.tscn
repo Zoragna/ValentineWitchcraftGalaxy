@@ -1,0 +1,88 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://scripts/skeleton.gd" type="Script" id=1]
+[ext_resource path="res://assets/skull.obj" type="ArrayMesh" id=2]
+[ext_resource path="res://assets/jaw.obj" type="ArrayMesh" id=3]
+[ext_resource path="res://assets/ribs.obj" type="ArrayMesh" id=4]
+[ext_resource path="res://assets/bone.obj" type="ArrayMesh" id=5]
+
+[sub_resource type="CubeMesh" id=1]
+
+[sub_resource type="CubeMesh" id=2]
+
+[sub_resource type="CubeMesh" id=3]
+
+[sub_resource type="CapsuleShape" id=4]
+radius = 2.35305
+height = 4.37439
+
+[node name="Spatial" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="KinematicBody" type="KinematicBody" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.33443, 0 )
+collision_layer = 3
+collision_mask = 3
+
+[node name="MeshInstance" type="MeshInstance" parent="KinematicBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.55696, 0 )
+mesh = ExtResource( 2 )
+material/0 = null
+
+[node name="MeshInstance" type="MeshInstance" parent="KinematicBody/MeshInstance"]
+transform = Transform( -0.996714, 0, 0.0810037, 0, 1, 0, -0.0810037, 0, -0.996714, -2.69447, -2.11574, 0 )
+mesh = ExtResource( 3 )
+material/0 = null
+
+[node name="OmniLight" type="OmniLight" parent="KinematicBody/MeshInstance"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.824485, 0.291201, -0.924748 )
+light_color = Color( 0, 0.298039, 1, 1 )
+light_energy = 5.4
+omni_range = 0.307937
+
+[node name="OmniLight3" type="OmniLight" parent="KinematicBody/MeshInstance"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.836404, 0.291201, -0.915478 )
+light_color = Color( 0, 0.298039, 1, 1 )
+omni_range = 0.235126
+
+[node name="MeshInstance2" type="MeshInstance" parent="KinematicBody"]
+transform = Transform( -0.999174, 0, -0.0406455, 0.0183261, 0.892587, -0.450503, 0.0362797, -0.450876, -0.891849, 0, -1.23521, 2.14648 )
+mesh = ExtResource( 4 )
+material/0 = null
+
+[node name="MeshInstance" type="MeshInstance" parent="KinematicBody/MeshInstance2"]
+transform = Transform( 0.0525235, -0.396373, 0.011413, 0.366307, 0.0529083, 0.151725, -0.151859, -0.00947118, 0.369932, -2.827, 2.17626, 1.77247 )
+mesh = ExtResource( 5 )
+material/0 = null
+
+[node name="MeshInstance" type="MeshInstance" parent="KinematicBody/MeshInstance2/MeshInstance"]
+transform = Transform( 1, -6.0536e-009, 0, 2.79397e-009, 1, -7.45058e-009, 0, 0, 1, -5.71415, -0.637655, 0.447211 )
+mesh = SubResource( 1 )
+material/0 = null
+
+[node name="MeshInstance2" type="MeshInstance" parent="KinematicBody/MeshInstance2"]
+transform = Transform( -0.0794874, -0.391499, 0.020277, 0.360404, -0.0648377, 0.160952, -0.154244, 0.0502538, 0.365628, 3.28783, 2.17626, 2.02122 )
+mesh = ExtResource( 5 )
+material/0 = null
+
+[node name="MeshInstance" type="MeshInstance" parent="KinematicBody/MeshInstance2/MeshInstance2"]
+transform = Transform( 0.999999, -1.82539e-007, 1.49012e-008, 1.30385e-008, 0.999999, 1.04308e-007, 4.47035e-008, 1.49012e-008, 1, -5.52371, -0.919846, 0.455022 )
+mesh = SubResource( 2 )
+material/0 = null
+
+[node name="MeshInstance3" type="MeshInstance" parent="KinematicBody/MeshInstance2"]
+transform = Transform( 0.999844, 0.00116492, 0.00384295, -0.0164209, 0.365229, 0.403669, 0.00384294, -0.0286369, 0.90553, -1.43648, -0.851411, 1.64558 )
+mesh = SubResource( 3 )
+material/0 = null
+
+[node name="MeshInstance4" type="MeshInstance" parent="KinematicBody/MeshInstance2"]
+transform = Transform( 0.999844, 0.00116492, 0.00384295, -0.0164209, 0.365229, 0.403669, 0.00384294, -0.0286369, 0.905531, 1.37182, -0.866581, 1.78213 )
+mesh = SubResource( 3 )
+material/0 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="KinematicBody"]
+transform = Transform( 1, 0, 0, 0, 0.0414038, 0.999142, 0, -0.999142, 0.0414038, 0, 1.36036, 0 )
+shape = SubResource( 4 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( -1, 0, -8.74228e-008, 0, 1, 0, 8.74228e-008, 0, -1, 0.675111, 12.1344, -6.8809 )
