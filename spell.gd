@@ -11,6 +11,9 @@ var vanish_time = -1
 var cast_direction = Vector3()
 var spell_velocity = 0
 
+var inventory_scale = Vector3(1,1,1)
+var inventory_offset = Vector3(0,0,0)
+
 var time_start = OS.get_ticks_msec()
 var paused = false
 

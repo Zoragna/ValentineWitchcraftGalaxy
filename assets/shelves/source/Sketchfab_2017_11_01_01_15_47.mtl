@@ -1,0 +1,879 @@
+# Blender MTL File: 'Sketchfab_2017_11_01_01_15_47.blend'
+# Material Count: 81
+
+newmtl Baba_yaga_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\Textures\baba_yaga_albedo.png
+
+newmtl Hillhock_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\Textures\hillock_AO.png
+
+newmtl Hillhock_mat_hillock_albedo
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\hillock_albedo.png
+
+newmtl Imp_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\Imp_albedo.png
+
+newmtl Metal_1_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.102798 0.077428 0.119271
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Metal_1_mat_hillock_AO
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.102798 0.077428 0.119271
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\Textures\hillock_AO.png
+
+newmtl None
+Ns 0
+Ka 0.000000 0.003946 0.003122
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+
+newmtl Smoke_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.461798 0.523502 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.330000
+illum 1
+
+newmtl autumn_yellow_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.698253 0.332870 0.042352
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\Textures\hillock_AO.png
+
+newmtl autumn_yellow_mat_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.698253 0.332870 0.042352
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\\Users\\Antoine-PC\\Documents\\N7\\Clubs\\Desktop\\ziks\\baba_yaga_22\\bush_2_albedo.png
+
+newmtl bat_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.102242 0.078187 0.119538
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl bench_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\bench_albedo.png
+
+newmtl boat_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\Textures\hillock_AO.png
+
+newmtl boat_mat_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\\Users\\Antoine-PC\\Documents\\N7\\Clubs\\Desktop\\ziks\\baba_yaga_22\\boat_albedo.png
+
+newmtl boat_mat_boat_albedo
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\boat_albedo.png
+
+newmtl book_1_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\Textures\book_1_albedo.png
+
+newmtl book_2_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\book_2_albedo.png
+
+newmtl book_3_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\book_2_albedo.png
+
+newmtl bottle_1_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\bottle_1_albedo.png
+
+newmtl bottle_2_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\bottle_2_albedo.png
+
+newmtl broom__mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\broom_ albedo.png
+
+newmtl bucket_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\bucket_albedo.png
+
+newmtl bucket_mat_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\\Users\\Antoine-PC\\Documents\\N7\\Clubs\\Desktop\\ziks\\baba_yaga_22\\bucket_albedo.png
+
+newmtl bush_2_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\Textures\hillock_AO.png
+
+newmtl candle_material
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.685944 0.540262 0.391505
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\Textures\candle_albedo.png
+
+newmtl cattail_plant_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\cattail_plant_albedo.png
+
+newmtl cauldron_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.260417 0.260417 0.260417
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\cauldron_albedo.png
+
+newmtl chimney_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\chimney_albedo.png
+
+newmtl fence_1_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\fence_1_albedo.png
+
+newmtl fence_2_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\Textures\hillock_AO.png
+
+newmtl fire_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 0.258420 0.008834
+Ks 0.000000 0.000000 0.000000
+Ke 2.000000 0.516840 0.017669
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl fish_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.375000 0.375000 0.375000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\fish_albedo.png
+
+newmtl fishing_rod_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\fishing_rod_albedo.png
+
+newmtl garlic_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\garlic_albedo.png
+
+newmtl glass_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.341283 0.603517 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.250000
+illum 2
+
+newmtl hourglas_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\hourglass_albedo.png
+
+newmtl hut_floor_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\hut_floor_albedo.png
+
+newmtl hut_stand
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.104167 0.104167 0.104167
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\hut_stand.png
+
+newmtl hut_walls_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\hut_walls_albedo.png
+
+newmtl hut_walls_mat_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\\Users\\Antoine-PC\\Documents\\N7\\Clubs\\Desktop\\ziks\\baba_yaga_22\\hut_walls_albedo.png
+
+newmtl hut_window_small_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\\Users\\Antoine-PC\\Documents\\N7\\Clubs\\Desktop\\ziks\\baba_yaga_22\\hut_window_small_albedo.png
+
+newmtl jar_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.260417 0.260417 0.260417
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\jar_albedo.png
+
+newmtl knight_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\knight_albedo.png
+
+newmtl ladder_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\ladder_albedo.png
+
+newmtl lady_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\lady_albedo.png
+
+newmtl lady_mat_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\\Users\\Antoine-PC\\Documents\\N7\\Clubs\\Desktop\\ziks\\baba_yaga_22\\lady_albedo.png
+
+newmtl leafs_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\leafs_albedo.png
+
+newmtl monk_material
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\monk_albedo.png
+
+newmtl mushroom_1_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\mushroom_1_albedo.png
+
+newmtl mushroom_2_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\Textures\hillock_AO.png
+
+newmtl peasant_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\peasant_albedo.png
+
+newmtl pulley_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\pulley_albedo.png
+
+newmtl rat_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\rat_albedo.png
+
+newmtl rock_1_material
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.312686 0.259839 0.267795
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl rock_2_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.190171 0.139011 0.130457
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl rocks_material
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Antoine-PC\\Documents\\N7\\Clubs\\Desktop\\ziks\\baba_yaga_22\\Textures\\rocks_albedo.png
+
+newmtl roof_material
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 0.665387 0.274677
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl roof_material_hillock_AO
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 0.665387 0.274677
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\Textures\hillock_AO.png
+
+newmtl scarecrow_material
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\Textures\hillock_AO.png
+
+newmtl scarecrow_material_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\\Users\\Antoine-PC\\Documents\\N7\\Clubs\\Desktop\\ziks\\baba_yaga_22\\Textures\\scarecrow_albedo.png
+
+newmtl scarecrow_target
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\\Users\\Antoine-PC\\Documents\\N7\\Clubs\\Desktop\\ziks\\baba_yaga_22\\scarecrow_target_albedo.png
+
+newmtl shelf_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\shelf_albedo.png
+
+newmtl shutters_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\shutters_albedo.png
+
+newmtl stool_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\stool_albedo.png
+
+newmtl stump_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\stump_albedo.png
+
+newmtl sword_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.250000 0.250000 0.250000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\sword_albedo.png
+
+newmtl terrain_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\terrain_albedo.png
+
+newmtl tree_1_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\tree_1_albedo.png
+
+newmtl tree_2_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\Textures\hillock_AO.png
+
+newmtl tree_2_mat_tree_2_albedo.png
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\tree_2_albedo.png
+
+newmtl tree_3_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\Textures\hillock_AO.png
+
+newmtl tree_3_mat_tree_2_albedo.png
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\tree_2_albedo.png
+
+newmtl water_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.111024 0.238064 0.496892
+Ks 0.360000 0.360000 0.360000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl well_material
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\well_albedo.png
+
+newmtl wood_1_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\wood_1_albedo.png
+
+newmtl wood_2_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\wood_2_albedo.png
+
+newmtl wood_3_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.142398 0.072312 0.057635
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\Textures\hillock_AO.png
+
+newmtl wood_3_mat_NONE
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.142398 0.072312 0.057635
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl wood_mat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124772 0.086500 0.076185
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl wood_mat_hillock_AO
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124772 0.086500 0.076185
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\Textures\hillock_AO.png
+
+newmtl wood_mat_sword_albedo
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.124772 0.086500 0.076185
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\Antoine-PC\Documents\N7\Clubs\Desktop\ziks\baba_yaga_22\sword_albedo.png

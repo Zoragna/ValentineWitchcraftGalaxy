@@ -59,7 +59,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 27.5503, 2.9034, 5.06351 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 13.085, 0.209877, 21.1777 )
 
 [node name="Spatial4" parent="." instance=ExtResource( 7 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 21.7004, 3.25431, 22.7024 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.2539, 0.963676, 28.7169 )
 
 [node name="Spatial5" parent="." instance=ExtResource( 8 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.4065, -2.67292, 23.596 )

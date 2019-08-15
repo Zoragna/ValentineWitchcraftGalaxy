@@ -4,6 +4,7 @@ onready var Player = get_node("valentine")
 onready var Planet = get_node("Spatial2")
 
 var Fire_Ball = preload("res://scenes/fire_ball.tscn")
+var Fire_Column = preload("res://scenes/fire_column.tscn")
 
 var current_camera
 
@@ -23,6 +24,7 @@ func _ready():
 	Player.connect("talking", self, "on_Player_talking")
 	Player.connect("spell_cast", self, "spell_casted")
 	Player.add_spell_left(Fire_Ball)
+	Player.add_spell_right(Fire_Column)
 	Player.unpause()
 
 func from_spells_vanished(spell):

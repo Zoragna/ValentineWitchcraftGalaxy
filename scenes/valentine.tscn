@@ -1,15 +1,14 @@
-[gd_scene load_steps=23 format=2]
+[gd_scene load_steps=22 format=2]
 
 [ext_resource path="res://scripts/valentine.gd" type="Script" id=1]
 [ext_resource path="res://blender_assets/dress.obj" type="ArrayMesh" id=2]
 [ext_resource path="res://blender_assets/paw.obj" type="ArrayMesh" id=3]
-[ext_resource path="res://scenes/fire_ball.tscn" type="PackedScene" id=4]
-[ext_resource path="res://blender_assets/fox_face.obj" type="ArrayMesh" id=5]
-[ext_resource path="res://blender_assets/hat.obj" type="ArrayMesh" id=6]
-[ext_resource path="res://blender_assets/boots.obj" type="ArrayMesh" id=7]
-[ext_resource path="res://gimp_sprites/9patch.png" type="Texture" id=8]
-[ext_resource path="res://gimp_sprites/slot.png" type="Texture" id=9]
-[ext_resource path="res://gimp_sprites/button3.png" type="Texture" id=10]
+[ext_resource path="res://blender_assets/fox_face.obj" type="ArrayMesh" id=4]
+[ext_resource path="res://blender_assets/hat.obj" type="ArrayMesh" id=5]
+[ext_resource path="res://blender_assets/boots.obj" type="ArrayMesh" id=6]
+[ext_resource path="res://gimp_sprites/9patch.png" type="Texture" id=7]
+[ext_resource path="res://gimp_sprites/slot.png" type="Texture" id=8]
+[ext_resource path="res://gimp_sprites/button3.png" type="Texture" id=9]
 
 [sub_resource type="Animation" id=1]
 resource_name = "Fly"
@@ -2488,9 +2487,6 @@ mesh = ExtResource( 3 )
 material/0 = null
 material/1 = null
 
-[node name="KinematicBody" parent="left_hand" instance=ExtResource( 4 )]
-transform = Transform( 1, -1.49012e-008, -7.45058e-009, 7.45058e-009, 1, -4.42378e-009, -2.79397e-008, 1.29454e-007, 1, 0.137674, -1.71162, -0.358481 )
-
 [node name="right_hand" type="MeshInstance" parent="."]
 transform = Transform( 0.00299903, 0.189453, 0.232591, 0.0371409, -0.231048, 0.187717, 0.297677, 0.0269189, -0.0257645, 1.7194, 0.718354, -0.144264 )
 mesh = ExtResource( 3 )
@@ -2499,26 +2495,26 @@ material/1 = null
 
 [node name="fox_head" type="MeshInstance" parent="."]
 transform = Transform( 0.832677, -0.00422541, -0.0174899, -0.00365899, 0.752899, -0.356095, 0.0176171, 0.356089, 0.752705, 0.161607, 2.23519, 0.228467 )
-mesh = ExtResource( 5 )
+mesh = ExtResource( 4 )
 material/0 = null
 material/1 = null
 material/2 = null
 
 [node name="hat" type="MeshInstance" parent="fox_head"]
 transform = Transform( 1.39194, 0.537633, 0.153159, -0.554037, 1.38151, 0.185667, -0.0745131, -0.228861, 1.48057, 1.50207, 1.90912, -1.41778 )
-mesh = ExtResource( 6 )
+mesh = ExtResource( 5 )
 material/0 = null
 material/1 = null
 
 [node name="left_boot" type="MeshInstance" parent="."]
 transform = Transform( 0.278163, 0, -0.112361, 0, 0.300002, 0, 0.112361, 0, 0.278164, -0.647519, -0.752617, 0.474577 )
-mesh = ExtResource( 7 )
+mesh = ExtResource( 6 )
 material/0 = null
 material/1 = null
 
 [node name="right_boot" type="MeshInstance" parent="."]
 transform = Transform( 0.186663, -0.000679516, 0.234854, 0.00109209, 0.299998, 1.68207e-009, -0.234852, 0.000854939, 0.186664, 0.472384, -0.740585, -0.389927 )
-mesh = ExtResource( 7 )
+mesh = ExtResource( 6 )
 material/0 = null
 material/1 = null
 
@@ -2580,6 +2576,7 @@ shape = SubResource( 8 )
 
 [node name="Control" type="Control" parent="."]
 editor/display_folded = true
+visible = false
 margin_right = 40.0
 margin_bottom = 40.0
 
@@ -2603,7 +2600,7 @@ margin_left = 443.0
 margin_top = 146.0
 margin_right = 1008.0
 margin_bottom = 526.0
-texture = ExtResource( 8 )
+texture = ExtResource( 7 )
 
 [node name="GridContainer" type="GridContainer" parent="Control/NinePatchRect"]
 margin_left = 166.763
@@ -2616,7 +2613,7 @@ columns = 3
 [node name="NinePatchRect" type="NinePatchRect" parent="Control/NinePatchRect/GridContainer"]
 margin_right = 304.0
 margin_bottom = 305.0
-texture = ExtResource( 9 )
+texture = ExtResource( 8 )
 region_rect = Rect2( 1, 0, 151, 152 )
 patch_margin_left = 153
 patch_margin_top = 152
@@ -2627,19 +2624,19 @@ patch_margin_bottom = 153
 margin_left = 308.0
 margin_right = 308.0
 margin_bottom = 305.0
-texture = ExtResource( 9 )
+texture = ExtResource( 8 )
 
 [node name="NinePatchRect2" type="NinePatchRect" parent="Control/NinePatchRect/GridContainer"]
 margin_left = 312.0
 margin_right = 312.0
 margin_bottom = 305.0
-texture = ExtResource( 9 )
+texture = ExtResource( 8 )
 
 [node name="NinePatchRect4" type="NinePatchRect" parent="Control/NinePatchRect/GridContainer"]
 margin_top = 309.0
 margin_right = 304.0
 margin_bottom = 309.0
-texture = ExtResource( 9 )
+texture = ExtResource( 8 )
 
 [node name="Button" type="Button" parent="Control/NinePatchRect"]
 margin_left = 398.491
@@ -2647,7 +2644,7 @@ margin_top = 22.3389
 margin_right = 562.491
 margin_bottom = 180.339
 rect_scale = Vector2( 0.479851, 0.400239 )
-icon = ExtResource( 10 )
+icon = ExtResource( 9 )
 flat = true
 
 [node name="rot_with_camera" type="Tween" parent="."]

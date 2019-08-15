@@ -232,11 +232,11 @@ func add_spell(Spell, idx, parent_node) :
 	spells[idx] = Spell
 	print(str(idx) + "|" + str(spells))
 	var spell = Spell.instance()
-	spell.scale *= 1.0
-	spell.transform.origin = Vector3(.14,-1.7,-0.35)
+	parent_node.add_child(spell)
+	spell.scale = spell.inventory_scale
+	spell.transform.origin = spell.inventory_offset
 	spell.visible = false
 	spell.spell_velocity = 0
-	add_child(spell)
 	spell.STATE = "INERT"
 	spell.pause()
 

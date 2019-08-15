@@ -8,6 +8,8 @@ func _ready():
 	cast_time = -1
 	vanish_time = 5.0
 	spell_velocity = 2500
+	inventory_scale = 10*Vector3(1,1,1)
+	inventory_offset = Vector3(0,-2,0)
 
 func explode():
 	print("explode !")

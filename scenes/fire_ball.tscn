@@ -99,7 +99,7 @@ shader_param/texture_scale = Vector2( 8, 4 )
 shader_param/refraction = 0.05
 shader_param/beer_factor = 1.0
 
-[sub_resource type="SpatialMaterial" id=8]
+[sub_resource type="SpatialMaterial" id=5]
 flags_transparent = true
 albedo_color = Color( 1, 1, 1, 0.47451 )
 metallic_specular = 1.0
@@ -110,10 +110,10 @@ emission_energy = 1.2
 emission_operator = 0
 emission_on_uv2 = false
 
-[sub_resource type="SphereMesh" id=9]
-material = SubResource( 8 )
+[sub_resource type="SphereMesh" id=6]
+material = SubResource( 5 )
 
-[sub_resource type="ParticlesMaterial" id=5]
+[sub_resource type="ParticlesMaterial" id=7]
 emission_shape = 1
 emission_sphere_radius = 1.0
 spread = 144.23
@@ -121,12 +121,13 @@ gravity = Vector3( 0, 0, 0 )
 initial_velocity = 2.0
 angle = 128.0
 
-[sub_resource type="SphereMesh" id=6]
+[sub_resource type="SphereMesh" id=8]
 material = SubResource( 4 )
 radius = 0.2
 height = 0.2
 
 [node name="KinematicBody" type="RigidBody"]
+gravity_scale = 0.0
 contacts_reported = 1
 script = ExtResource( 1 )
 
@@ -140,7 +141,7 @@ mesh = SubResource( 2 )
 material/0 = SubResource( 4 )
 
 [node name="MeshInstance" type="MeshInstance" parent="MeshInstance"]
-mesh = SubResource( 9 )
+mesh = SubResource( 6 )
 material/0 = null
 
 [node name="Timer" type="Timer" parent="."]
@@ -152,8 +153,8 @@ speed_scale = 3.7
 explosiveness = 1.0
 randomness = 1.0
 visibility_aabb = AABB( -10.2312, -4, -12.9519, 20.4624, 8, 25.9037 )
-process_material = SubResource( 5 )
-draw_pass_1 = SubResource( 6 )
+process_material = SubResource( 7 )
+draw_pass_1 = SubResource( 8 )
 
 [node name="OmniLight" type="OmniLight" parent="."]
 light_color = Color( 1, 0.843137, 0.372549, 1 )
